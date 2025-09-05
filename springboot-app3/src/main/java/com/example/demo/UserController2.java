@@ -18,7 +18,7 @@ public class UserController2 {
 
     @GetMapping("/")
     public String hello() {
-        return "I ATE THE CURRY CUTTLET!";
+        return "바뀌였는지 확인 해보도록 하죠";
     }
 
     @GetMapping("/mysql")
